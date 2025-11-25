@@ -1,0 +1,22 @@
+<template>
+  <div>
+<nuxt-page></nuxt-page>
+  </div>
+</template>
+<script setup>
+const {user,getMe} = useAuth()
+if (!user.value) {
+  getMe()
+
+}
+</script>
+
+<style>
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+    background: #d1d1d1;
+}
+
+</style>
