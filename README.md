@@ -18,7 +18,7 @@ npx nuxi module add tailwindcss
 
 
 ```
-# หรือ
+ หรือ
 
 ```bash
    npm install -D @nuxtjs/tailwindcss
