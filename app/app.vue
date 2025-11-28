@@ -1,6 +1,7 @@
 <template>
   <div>
-<nuxt-page></nuxt-page>
+    <nuxt-layout><nuxt-page></nuxt-page></nuxt-layout>
+
   </div>
 </template>
 <script setup>
